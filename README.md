@@ -41,6 +41,10 @@ ls al ~/.ssh
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
+### OR if it's not work
+```
+ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
 
 ```
 eval $(ssh-agent -s)
